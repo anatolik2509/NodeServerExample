@@ -1,0 +1,10 @@
+GET localhost:80/resume
+###
+POST localhost:80/resume
+Content-Type: application/json
+
+{
+  "name": "test",
+  "phone": "123",
+  "text": "test test test"
+}
